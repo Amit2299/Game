@@ -1,0 +1,96 @@
+.A{
+    height: 50px;
+}
+
+li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 12px;
+    font-family: cursive;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: larger;
+}
+li a{
+    text-decoration:none;
+    color:white;
+    margin-left: 50px;
+}
+.B{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.C{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 20px;
+}
+.D{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 20px;
+}
+body{
+    background: url(back.jpg);
+    background-size: cover;
+}
+li a:hover{
+    color: red;
+}
+.loginbox{
+    width: 400px;
+    height: 270px;
+    background: white;
+    color: black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 0% 2%;
+    border-radius: 5%;
+    opacity: 95%;
+    box-shadow: 2px 10px 20px 10px red;
+}
+span{
+    margin-left: 30%;
+}
+.loginbox button{
+    border-radius: 50%;
+    background:black;
+    border: none;
+    height: 10%;
+    width: 30%;
+    margin-left: 110px;
+}
+.loginbox h1{
+    color: blueviolet;
+    font-family: cursive;
+}
+.next{
+    text-decoration: none;
+    color:white;
+}
+.next:hover{
+    color: yellow;
+}
+
+
+.aaa:hover{
+    color: yellow;
+}
+footer{
+    margin-bottom: 0;
+    margin-top: 550px;
+    color: white;
+    background-color: black;
+}
+footer p{
+    margin-left: 45%;
+}
